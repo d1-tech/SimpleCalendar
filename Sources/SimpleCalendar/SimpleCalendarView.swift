@@ -165,7 +165,7 @@ public struct SimpleCalendarView: View {
                     selectionAction: selectionAction
                 )
             }
-            .toolbar {
+         /*   .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     ZStack {
                         switch dateSelectionStyle {
@@ -183,7 +183,7 @@ public struct SimpleCalendarView: View {
                         }
                     }
                 }
-            }
+            }*/
         }
         .onChange(of: selectedDate) { _ in
             updateContent()
